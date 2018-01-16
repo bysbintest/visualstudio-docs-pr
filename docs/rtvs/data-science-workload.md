@@ -1,7 +1,7 @@
 ---
-title: Data Science and Analytical Applications Workload in Visual Studio | Microsoft Docs
+title: Data Science and Analytical Applications workload in Visual Studio | Microsoft Docs
 ms.custom: ""
-ms.date: 9/5/2017
+ms.date: 09/05/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -10,20 +10,21 @@ ms.technology:
   - "devlang-fsharp"
 ms.tgt_pltfrm: ""
 ms.topic: "landing-page"
-ms.assetid: 018069f3-6d1a-4143-a851-d86d2ff5fbfc
 caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "data-science"
 ---
 
 # Data Science and Analytical Applications workload
 
-The Data Science and Analytical Applications workload in Visual Studio brings together three languages and their respective runtime distributions:
+The Data Science and Analytical Applications workload, shown in the Visual Studio installer, brings together three languages and their respective runtime distributions:
 
 - [R and Microsoft R Client](../rtvs/index.md)
 - [Python and Anaconda](../python/python-in-visual-studio.md)
-- [F# with the .NET framework](https://docs.microsoft.com/dotnet/fsharp/)
+- [F# with the .NET framework](/dotnet/fsharp/)
 
 ![Data Science and Analytics Applications workload in the Visual Studio installer](media/data-science-workload.png)
 

@@ -10,6 +10,8 @@ ms.topic: article
 ms.technology: visual studio
 ms.devlang: multiple
 ms.service: multiple
+ms.workload: 
+  - "multiple"
 ---
 
 # Visual Studio Tools for AI
@@ -27,6 +29,8 @@ Use the productivity features of Visual Studio to accelerate AI innovation today
 Visual Studio Tools for AI is integrated with Azure Machine Learning to make it easy to browse through a gallery of sample experiments using CNTK, TensorFlow, MMLSpark and more. 
 
 ![sample explorer](media\about\gallery.png)
+
+[Learn more about creating projects from the sample gallery](create-project-gallery.md)
 
 ## Scale out deep learning model training and/or inferencing to the cloud
 This extension makes it easy to train models on your local computer or you can submit jobs to the cloud by using our integration with Azure Machine Learning. You can submit jobs to different compute targets like Spark clusters, Azure GPU virtual machines and more  
