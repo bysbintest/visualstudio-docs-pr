@@ -4,7 +4,6 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, namespace"
@@ -13,6 +12,7 @@ ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # How to: Change the Namespace of a Domain-Specific Language
 You can change the namespace of a domain-specific language. You must make the change in the **DSL Explorer**, in the properties of the Dsl Package project, and in the assembly information.  
@@ -49,5 +49,6 @@ You can change the namespace of a domain-specific language. You must make the ch
   
 11. On the **Build** menu, choose **Rebuild Solution**.  
   
-## See Also  
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)
+## See also
+
+[Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
