@@ -14,6 +14,8 @@ caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Troubleshooting and known issues for snapshot debugging in Visual Studio
 
@@ -27,8 +29,7 @@ If you see a warning icon ![Snappoint warning icon](../debugger/media/snapshot-t
 
 Take these steps:
 
-1. Make sure you have the same version of source code that was used to build and deploy your app.
-1. Make sure you are loading the correct symbols for your deployment. To do this, view the **Modules** window while Snapshot Debugging and verify the Symbol File column shows a .pdb file loaded for the module you are debugging. Note that the Snapshot Debugger will try to automatically download and use symbols for your deployment.
+1. Make sure you have the same version of source code that was used to build and deploy your app.isua1. Make sure you are loading the correct symbols for your deployment. To do this, view the **Modules** window while Snapshot Debugging and verify the Symbol File column shows a .pdb file loaded for the module you are debugging. Note that the Snapshot Debugger will try to automatically download and use symbols for your deployment.
 
 ## Issue: Symbols do not load when I open a Snapshot
 
@@ -66,7 +67,19 @@ Take these steps:
 - Snapshot debugging with multiple Visual Studio clients against the same App Service is not currently supported.
 - Roslyn IL optimizations are not fully supported in ASP.NET Core projects. For some ASP.NET Core projects, you may not be able to see some variables or use some variables in conditional statements. 
 - Special variables, such as *$FUNCTION* or *$CALLER*, cannot be evaluated in conditional statements or logpoints for ASP.NET Core projects.
-- Snapshot debugging does not work on App Services that have [Local Caching](https://docs.microsoft.com/en-us/azure/app-service/app-service-local-cache) turned on.
+- Snapshot debugging does not work on App Services that have [Local Caching](/azure/app-service/app-service-local-cache) turned on.
+- Snapshot debugging API Apps is not currently supported.
+
+## Site Extension Upgrade
+
+Snapshot Debugging and Application Insights depend on an ICorProfiler which loads into the site process and causes file locking issues during upgrade. We recommend this process to ensure there is no down-time to your production site.
+
+- Create a [Deployment Slot](/azure/app-service/web-sites-staged-publishing) within your App Service and deploy your site to the Slot.
+- Swap the Slot with production from Cloud Explorer in Visual Studio or from the Azure Portal.
+- Stop the Slot site. This will take a few seconds to kill off the site w3wp.exe process from all instances.
+- Upgrade the Slot site extension from the Kudu site or the Azure Portal (*App Service Blade > Development Tools > Extensions > Update*).
+- Start the Slot site. We recommend visiting the site to warm it up again.
+- Swap the Slot with production.
 
 ## See also
 

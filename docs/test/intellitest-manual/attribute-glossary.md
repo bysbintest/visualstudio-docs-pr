@@ -1,19 +1,15 @@
 ---
 title: "Attribute glossary | Microsoft IntelliTest Developer Test Tool | Microsoft Docs"
-ms.custom: ""
 ms.date: "05/02/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-test
 ms.topic: "article"
 helpviewer_keywords: 
   - "IntelliTest, Attribute glossary"
-ms.assetid: 557C7869-48BE-4B82-9563-1FF356ABACDB
-caps.latest.revision: 56
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Attribute glossary
 
@@ -234,7 +230,7 @@ public void MyTest(object testParameter)
 If this attribute is attached to a 
 [PexMethod](#pexmethod) (or to a 
 [PexClass](#pexclass), it changes the default IntelliTest
-logic taht indicates when tests fails. The test will 
+logic that indicates when tests fails. The test will 
 not be considered as failed, even if it throws the 
 specified exception.
 

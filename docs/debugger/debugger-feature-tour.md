@@ -1,13 +1,14 @@
 ---
-title: "Debugger Feature Tour | Microsoft Docs"
-ms.custom: "H1HackMay2017"
-ms.date: "05/19/2017"
+title: "Debugger Feature Tour - Visual Studio | Microsoft Docs"
+description: Take a tour of the Visual Studio debugger
+ms.custom: "mvc"
+ms.date: "03/27/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "quickstart"
 helpviewer_keywords: 
   - "debugger"
 ms.assetid: c763d706-3213-494f-b4d2-990b6e1ec456
@@ -15,8 +16,10 @@ caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
-# Feature Tour of the Visual Studio Debugger
+# Quickstart: First look at the Visual Studio Debugger
 
 This topic introduces the features of the Visual Studio debugger. If you want to follow along by opening your own app in Visual Studio, you can do that, or you can follow along with a sample app using the [Beginner's Guide](../debugger/getting-started-with-the-debugger.md).
 
@@ -189,6 +192,26 @@ The Exception Helper is a great feature that can help you debug errors. You can 
 > The Exception Helper replaces the Exception Assistant in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
 
 Expand the **Exception Settings** node to see more options on how to handle this exception type, but you don't need to change anything for this tour!
+
+## Debug live ASP.NET apps in Azure App Service
+
+the **Snapshot Debugger** takes a snapshot of your in-production apps when code that you are interested in executes. To instruct the debugger to take a snapshot, you set snappoints and logpoints in your code. The debugger lets you see exactly what went wrong, without impacting traffic of your production application. The Snapshot Debugger can help you dramatically reduce the time it takes to resolve issues that occur in production environments.
+
+![Launch the snapshot debugger](../debugger/media/snapshot-launch.png "Launch the snapshot debugger")
+
+Snapshot collection is available for ASP.NET applications running in Azure App Service. ASP.NET applications must be running on .NET Framework 4.6.1 or later, and ASP.NET Core applications must be running on .NET Core 2.0 or later on Windows.
+
+For more information, see [Debug live ASP.NET apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md).
+
+## View snapshots with IntelliTrace step-back (Visual Studio Enterprise)
+
+**IntelliTrace step-back** automatically takes a snapshot of your application at every breakpoint and debugger step event. The recorded snapshots enable you to go back to previous breakpoints or steps and view the state of the application as it was in the past. IntelliTrace step-back can save you time when you want to see the previous application state but don't want to restart debugging or recreate the desired app state.
+
+You can navigate and view snapshots by using the **Step Backward** and **Step Forward** buttons in the Debug toolbar. These buttons navigate the events that appear in the **Events** tab in the **Diagnostic Tools** window.
+
+![Step Backward and Forward Buttons](../debugger/media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")  
+
+For more information, see the [View snapshots using IntelliTrace step-back](../debugger/how-to-use-intellitrace-step-back.md) page.
 
 ## More features to look at
 
