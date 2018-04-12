@@ -4,14 +4,11 @@ ms.custom: ""
 ms.date: 07/14/2017
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-general
 ms.topic: "article"
 helpviewer_keywords:
-  - "builds [Visual Studio], about building in Visual Studio"
-  - "custom build steps, types of builds"
-caps.latest.revision: 28
+  - "building [Visual Studio], about"
+  - "custom build steps [Visual Studio]"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
