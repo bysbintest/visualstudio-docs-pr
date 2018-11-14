@@ -1,0 +1,137 @@
+# Content developers
+Genevieve Warren <gewarren@microsoft.com>
+Terry G. Lee <tglee@microsoft.com> <terry.g.lee@microsoft.com>
+Mike Jones <mikejo@microsoft.com>
+Gordon Hogenson <ghogen@microsoft.com>
+Kraig Brockschmidt <kraigb@microsoft.com> <kraigbr@msn.com>
+Greg Van Liew <gregvanl@microsoft.com>
+Michael Blome <mblome@microsoft.com> <mikeblome@users.noreply.github.com>
+Doug Erickson <douge@microsoft.com> <erickson-doug@users.noreply.github.com>
+Alex Homer <ahomer@microsoft.com> <alexhomer1@users.noreply.github.com>
+Craig Dunn <crdun@microsoft.com> <craig.dunn@conceptdevelopment.net> <craig.dunn@gmail.com>
+Rick Anderson <riande@microsoft.com>
+Maira Wenzel <mairaw@microsoft.com>
+Ron Petrusha <ronpet@microsoft.com>
+
+# Docs support
+Banani-Rath <barath@microsoft.com> <v-barath@microsoft.com>
+Feng Xu <fenxu@microsoft.com>
+Saisang Cai <v-zhecai@microsoft.com> <Saisang@users.noreply.github.com>
+Sudeep Kumar <sudeepku@microsoft.com>
+Den Delimarsky <dendeli@microsoft.com> <1389609+dend@users.noreply.github.com>
+Jeremy Danyow <jedanyow@microsoft.com> <jdanyow@gmail.com>
+Jason Card <jacard@microsoft.com>
+Jennifer Mashkowski <jemash@microsoft.com>
+Simon Wu <siw@microsoft.com>
+Junshen Tao <v-jutao@microsoft.com>
+Caro Caserio <CCaserio@moravia.com>
+Alma Jenks <v-alje@microsoft.com>
+Sarah Vilaysom <v-savila@microsoft.com>
+Mauricio de los Santos <v-maudel@microsoft.com>
+Jak Koke <v-jokoke@microsoft.com>
+Mimi Gentz <mimig@microsoft.com>
+Tyson Nevil <tysonn@microsoft.com>
+
+# Vendor writers/reviewers
+Tami Fosmark <v-tamif@microsoft.com>
+Dean Simpson <v-deasim@microsoft.com>
+Rebecca Agiewich <v-reagie@microsoft.com>
+Shilpa Sharma <v-shils@microsoft.com>
+Bruce Hamilton <v-bruham@microsoft.com>
+Jim Wells <v-jawell@microsoft.com>
+Ross McAllister <rmca14@users.noreply.github.com>
+James Dunn <v-jdunn@microsoft.com>
+Mark McGee <v-mamcge@microsoft.com>
+Dennis Lee <v-dele@microsoft.com>
+Kristine Toliver <ktoliver@users.noreply.github.com>
+Theano Petersen <v-thepet@microsoft.com>
+Evan Windom <v-evwind@microsoft.com> <32342809+evanwindom@users.noreply.github.com>
+James Dunn <v-jdunn@microsoft.com>
+Matthew Sebolt <v-masebo@microsoft.com>
+Beth-Anne Harvey <v-bharve@microsoft.com>
+Dan Mabee <v-damabe@microsoft.com>
+Craig Casey <v-craic@microsoft.com>
+Liz Casey <v-elicas@microsoft.com>
+William Anton Rohm <v-wiroh@microsoft.com>
+Shawn Jackson <v-shawja@microsoft.com>
+David Antognoli <v-davian@microsoft.com> <david.antognoli@gmail.com>
+Patricia (Trisha) McNary <v-pamcn@microsoft.com> <38017854+TrishaMc@users.noreply.github.com>
+
+# Julia's org
+****  Emma Roudabush <emrou@microsoft.com>
+****  Pratik Nadagouda <prnadago@microsoft.com>
+****  Armando Aguirre Sepulveda <armando.aguirre@microsoft.com>
+****  Stephanie Su <stsu@microsoft.com>
+****  Daniel Jacobson <dajaco@microsoft.com>
+****  David Kean <davkean@microsoft.com>
+****  Steven Vukelich <svukel@microsoft.com>
+****  Gregg Miskelly <greggm@microsoft.com>
+****  Mike Morton <mikemort@microsoft.com>
+****  Heath Stewart <heaths@microsoft.com>
+****  Chitra Koppolu <chitray@microsoft.com>
+****  Karan Nandwani <karann@microsoft.com>
+****  Phil Lee <phillee@microsoft.com>
+****  Soojin Choi <somin@microsoft.com>
+****  Oleg Tkachenko <olegtk@microsoft.com>
+****  Pierson Lee <piel@microsoft.com>
+****  John Stallo <johnsta@microsoft.com> <john.stallo@microsoft.com> <john.stallo@live.com>
+****  Kendra Havens <kehavens@microsoft.com> <kendrahavens@users.noreply.github.com>
+****  Sebastien Lebreton <sebastien@lebreton.fr>
+****  Paul Chapman <pchapman@microsoft.com> <PoulChapman@users.noreply.github.com> <poulchapman@users.noreply.github.com>
+****  Phillip Carter <phcart@microsoft.com> <pcarter@fastmail.com>
+****  Angelos Petropoulos <angelos.petropoulos@microsoft.com> <angelos.petropoulos@outlook.com>
+****  Mark Wilson-Thomas <mwthomas@microsoft.com>
+****  Pooya Zandevakili <pozandev@microsoft.com> <16107916+PooyaZv@users.noreply.github.com>
+****  Allison Buchholtz-Au <allisb@microsoft.com> <abuchholtzau@users.noreply.github.com>
+****  Prachi Bora <prachi.bora@microsoft.com> <prachi.bora@gmail.com>
+****  Deborah Chen <dech@microsoft.com> <deborahc@users.noreply.github.com>
+****  Drew Noakes <drnoakes@microsoft.com> <git@drewnoakes.com>
+****  Lisa Guthrie <lcozzens@microsoft.com> <lisacozzens@hotmail.com>
+****  William Xie <willxie@microsoft.com>
+****  Douglas Hall <doughall@microsoft.com> <frayus@live.com>
+****  Mads Kristensen <Madsk@microsoft.com> <madskristensen@users.noreply.github.com>
+****  Maria Ghiondea <maria.ghiondea@microsoft.com>
+****  Nick Uhlenhuth <nicku@microsoft.com> <nicku@mit.edu>
+****  Amadeusz Wieczorek <amwieczo@microsoft.com> <git@amadeusw.com>
+****  Heejae Chang <hechang@microsoft.com> <heejaechang@outlook.com>
+****  Sean Iyer <seiyer@microsoft.com> <41308619+seaniyer@users.noreply.github.com>
+****  Andy Sterland <andster@microsoft.com>
+****  Aditya Kadam <adityk@microsoft.com>
+****  Amy Burns <amburns@microsoft.com> <amy.burns@xamarin.com> <amy.burns87@gmail.com>
+****  Tina Schrepfer <tinali@microsoft.com>
+****  Bertan Aygun <bertaygu@microsoft.com> <bertan@aygunler.net>
+****  Jordan Matthiesen <jomatthi@microsoft.com> <jmatthie@hotmail.com>
+****  John Miller <johmil@microsoft.com>
+****  Nikola Mihaylov <nikolami@microsoft.com>
+****  Steve Dower <steve.dower@microsoft.com>
+
+# Other orgs at Microsoft
+Paul Ming <paulming@microsoft.com> # Bharat Shah's org
+Jeff Kluge <jeffkl@microsoft.com> # Ballinger's org
+Rainer Sigwald <raines@microsoft.com> # Ballinger's org
+Alex Eyler <alexey@microsoft.com> <alex.eyler@outlook.com> # James Phillip's org
+James Rice <jrice@microsoft.com> <23245003+JuniorIce@users.noreply.github.com> # Jamie Cool's org
+John Schultz <joschult@microsoft.com> <jsschultz@users.noreply.github.com> # Zander's org
+Christopher Warrington <chwarr@microsoft.com> # Alex Kipman's org
+Eric Wolfe <eric.wolfe@microsoft.com> # Zander's org
+Keyur Patel <kepatel@microsoft.com> # Rajesh's org
+Marius Ungureanu <maungu@microsoft.com> # Rajesh's org
+Mark Hillebrand <mahilleb@microsoft.com> # Alex Kipman's org
+Matt Fei <mattfei@microsoft.com> # Zander's org
+Nick Harris <nickha@microsoft.com> # Zander's org
+Alfred Myers <v-algary@microsoft.com> <alfredmyers@users.noreply.github.com> # Judson's org
+Lisa Costantino <v-liscos@microsoft.com>
+
+# Ex-Microsoft
+Charles Petzold <chape@microsoft.com>
+Paige Bailey <pabailey@microsoft.com>
+Mark McLemore <mamcle@microsoft.com> <mgmclemore@users.noreply.github.com>
+Kasey Uhlenhuth <kaseyu@microsoft.com>
+Andy Pasic <v-anpasi@microsoft.com>
+Jeffrey Gao <jefgao@microsoft.com>
+Paul van Brenk <paul.van.brenk@microsoft.com>
+
+# External
+Shane Dixon <shane.dixon@outlook.com> <s.dixon@hia.com.au>
+Nick Schonning <nschonni@gmail.com> <Nick.Schonning@cic.gc.ca>
+Mikkel Nylander Bundgaard <mikkelbu@gmail.com> <mikkelbu@users.noreply.github.com>
