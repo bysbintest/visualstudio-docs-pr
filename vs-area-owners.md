@@ -21,7 +21,7 @@
 | NodeJS | | |
 | Profiling | Esteban Herrera | esteban-herrera |
 | Project migration | | |
-| Python and R | | |
+| Python and R | Dan Taylor | qubitron |
 | Release notes | Angel zhou | anzhou5 |
 | Scripting | | |
 | Subscriptions | | |
