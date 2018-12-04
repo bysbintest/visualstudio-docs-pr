@@ -13,7 +13,9 @@
 | Developer Community | Sean Iyer | seaniyer |
 | Docker and Kubernetes | Lisa Guthrie | lisaguthrie |
 | Extensibility | Mads Kristensen | madskristensen |
-| IDE | | |
+| F1 help | Ruben Rios | rub8n |
+| Getting started | Cathy Sullivan | cathysull |
+| IDE | Anthony Cangialosi | acangialosi |
 | Installation | | |
 | Mac | | |
 | Modeling | Subrahmanya Srinivas | SrinivasMSFT |
@@ -26,6 +28,6 @@
 | Scripting | | |
 | Subscriptions | | |
 | Test | | |
-| Unity | | |
-| VSTO and Sharepoint | John Hart | |
+| Unity | Jb Evain | jbevain |
+| VSTO and Sharepoint | John Hart | john-hart |
 | Workflow Designer | | |
