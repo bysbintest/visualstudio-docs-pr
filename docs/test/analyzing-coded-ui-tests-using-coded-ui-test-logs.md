@@ -1,8 +1,7 @@
 ---
-title: "Analyzing Coded UI Tests Using Coded UI Test Logs in Visual Studio"
+title: "Analyzing Coded UI Tests Using Coded UI Test Logs"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
 manager: douge
@@ -13,6 +12,8 @@ author: gewarren
 # Analyzing coded UI tests using coded UI test logs
 
 Coded UI test logs filter and record important information about your coded UI test runs. The logs are presented in a format that allows for debugging issues quickly.
+
+[!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]
 
 ## Step 1: Enable logging
 

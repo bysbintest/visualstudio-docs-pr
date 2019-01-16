@@ -1,5 +1,5 @@
 ---
-title: "Coding a custom validation rule for a web performance test in Visual Studio"
+title: "Coding a custom validation rule for a web performance test"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -16,7 +16,6 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # Code a custom validation rule for a web performance test
 
@@ -24,6 +23,8 @@ You can create your own validation rules. To do this, you derive your own rule c
 
 > [!NOTE]
 > You can also create custom extraction rules. For more information, see [Create custom code and plug-ins for load tests](../test/create-custom-code-and-plug-ins-for-load-tests.md).
+
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 ## To create custom validation rules
 

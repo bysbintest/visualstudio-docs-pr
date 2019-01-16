@@ -1,8 +1,6 @@
 ---
 title: "View strings in a string visualizer | Microsoft Docs"
-ms.custom: ""
-ms.date: "07/11/2018"
-ms.technology: "vs-ide-debug"
+ms.date: "10/10/2018"
 ms.topic: "reference"
 f1_keywords:
   - "vs.debug.stringviewer"

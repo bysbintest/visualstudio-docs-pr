@@ -2,7 +2,6 @@
 title: Documents, Environment, Options Dialog Box
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.Environment.Documents"
@@ -37,9 +36,6 @@ ms.workload:
 # Documents, Environment, Options Dialog Box
 
 Use this page of the **Options** dialog box to control the display of documents in the integrated development environment (IDE) and manage external changes to documents and files. You can access this dialog box by clicking **Options** on the **Tools** menu and then selecting **Documents** in the **Environment** node. If **Documents** does not appear in the list, select **Show all settings** in the **Options** dialog box.
-
-> [!NOTE]
-> The options available in dialog boxes, and the names and locations of menu commands you see, might differ from what is described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
 
 **Reuse current document window, if saved**
 

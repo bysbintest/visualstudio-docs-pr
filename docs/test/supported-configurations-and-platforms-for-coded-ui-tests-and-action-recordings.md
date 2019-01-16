@@ -1,8 +1,7 @@
 ---
-title: "Configurations and Platforms for Coded UI Tests in Visual Studio"
+title: "Configurations and Platforms for Coded UI Tests"
 ms.date: 2015-10-04
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: reference
 helpviewer_keywords:
   - "coded UI tests"
@@ -19,8 +18,9 @@ The supported configurations and platforms for coded UI tests for Visual Studio 
 > [!NOTE]
 > The coded UI test process must have the same privileges as the app under test.
 
+[!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]
 
- **Requirements**
+**Requirements**
 
 -   Visual Studio Enterprise
 

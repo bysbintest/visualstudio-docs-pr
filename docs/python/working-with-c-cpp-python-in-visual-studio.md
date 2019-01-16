@@ -1,13 +1,13 @@
 ---
-title: Working with C++ and Python
+title: Write C++ extensions for Python
 description: A walkthrough of creating a C++ extension for Python using Visual Studio, CPython, and PyBind11, including mixed-mode debugging.
 ms.date: 11/19/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 manager: douge
+ms.custom: seodec18
 ms.workload:
   - python
   - data-science
@@ -122,7 +122,7 @@ Follow the instructions in this section to create two identical C++ projects nam
     | | **General** > **Target Extension** | **.pyd** |
     | | **Project Defaults** > **Configuration Type** | **Dynamic Library (.dll)** |
     | **C/C++** > **General** | **Additional Include Directories** | Add the Python *include* folder as appropriate for your installation, for example, `c:\Python36\include`.  |
-    | **C/C++** > **Preprocessor** | **Preprocessor Definitions** | Add `Py_LIMITED_API;` to the beginning of the string (including the semicolon). This definition restricts some of the functions you can call from Python and makes the code more portable between different versions of Python. |
+    | **C/C++** > **Preprocessor** | **Preprocessor Definitions** | **CPython only**: add `Py_LIMITED_API;` to the beginning of the string (including the semicolon). This definition restricts some of the functions you can call from Python and makes the code more portable between different versions of Python. If you're working with PyBind11, don't add this definition, otherwise you'll see build errors. |
     | **C/C++** > **Code Generation** | **Runtime Library** | **Multi-threaded DLL (/MD)** (see Warning below) |
     | **Linker** > **General** | **Additional Library Directories** | Add the Python *libs* folder containing *.lib* files as appropriate for your installation, for example, `c:\Python36\libs`. (Be sure to point to the *libs* folder that contains *.lib* files, and *not* the *Lib* folder that contains *.py* files.) |
 
@@ -130,7 +130,7 @@ Follow the instructions in this section to create two identical C++ projects nam
     > If you don't see the C/C++ tab in the project properties, it's because the project doesn't contain any files that it identifies as C/C++ source files. This condition can occur if you create a source file without a *.c* or *.cpp* extension. For example, if you accidentally entered `module.coo` instead of `module.cpp` in the new item dialog earlier, then Visual Studio creates the file but doesn't set the file type to "C/C+ Code," which is what activates the C/C++ properties tab. Such misidentification remains the case even if you rename the file with `.cpp`. To set the file type properly, right-click the file in **Solution Explorer**, select **Properties**, then set  **File Type** to **C/C++ Code**.
 
     > [!Warning]
-    > Always set the **C/C++** > **Code Generation** > **Runtime Library** option to **Multi-threaded DLL (/MD)**, even for a debug configuration, because this setting is what the non-debug Python binaries are built with. If you happen to set the **Multi-threaded Debug DLL (/MDd)** option, building a **Debug** configuration produces error **C1189: Py_LIMITED_API is incompatible with Py_DEBUG, Py_TRACE_REFS, and Py_REF_DEBUG**. Furthermore, if you remove `Py_LIMITED_API` to avoid the build error, Python crashes when attempting to import the module. (The crash happens within the DLL's call to `PyModule_Create` as described later, with the output message of **Fatal Python error: PyThreadState_Get: no current thread**.)
+    > Always set the **C/C++** > **Code Generation** > **Runtime Library** option to **Multi-threaded DLL (/MD)**, even for a debug configuration, because this setting is what the non-debug Python binaries are built with. With CPython, if you happen to set the **Multi-threaded Debug DLL (/MDd)** option, building a **Debug** configuration produces error **C1189: Py_LIMITED_API is incompatible with Py_DEBUG, Py_TRACE_REFS, and Py_REF_DEBUG**. Furthermore, if you remove `Py_LIMITED_API` (which is required with CPython, but not PyBind11) to avoid the build error, Python crashes when attempting to import the module. (The crash happens within the DLL's call to `PyModule_Create` as described later, with the output message of **Fatal Python error: PyThreadState_Get: no current thread**.)
     >
     > The /MDd option is used to build the Python debug binaries (such as *python_d.exe*), but selecting it for an extension DLL still causes the build error with `Py_LIMITED_API`.
 
@@ -399,7 +399,7 @@ There are a variety of means to create Python extensions as described in the fol
 | --- | --- | --- | --- | --- |
 | C/C++ extension modules for CPython | 1991 | Standard Library | [Extensive documentation and tutorials](https://docs.python.org/3/c-api/). Total control. | Compilation, portability, reference management. High C knowledge. |
 | [PyBind11](https://github.com/pybind/pybind11) (Recommended for C++) | 2015 |  | Lightweight, header-only library for creating Python bindings of existing C++ code. Few dependencies. PyPy compatibility. | Newer, less mature. Heavy use of C++11 features. Short list of supported compilers (Visual Studio is included). |
-| Cython (Recommnded for C) | 2007 | [gevent](http://www.gevent.org/), [kivy](https://kivy.org/) | Python-like. Highly mature. High performance. | Compilation, new syntax, new toolchain. |
+| Cython (Recommnded for C) | 2007 | [gevent](https://www.gevent.org/), [kivy](https://kivy.org/) | Python-like. Highly mature. High performance. | Compilation, new syntax, new toolchain. |
 | [Boost.Python](https://www.boost.org/doc/libs/1_66_0/libs/python/doc/html/index.html) | 2002 | | Works with just about every C++ compiler. | Large and complex suite of libraries; contains many workarounds for old compilers. |
 | ctypes | 2003 | [oscrypto](https://github.com/wbond/oscrypto) | No compilation, wide availability. | Accessing and mutating C structures cumbersome and error prone. |
 | SWIG | 1996 | [crfsuite](http://www.chokkan.org/software/crfsuite/) | Generate bindings for many languages at once. | Excessive overhead if Python is the only target. |

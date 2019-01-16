@@ -2,7 +2,6 @@
 title: Options, Text Editor, XAML, Miscellaneous
 ms.date: 10/29/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.XAML.Miscellaneous"
@@ -32,14 +31,12 @@ ms.workload:
   - "uwp"
 ---
 # Options, Text Editor, XAML, Miscellaneous
+
 Use the **Miscellaneous** property page to specify how elements and attributes are formatted in your XAML documents. To open the **Options** dialog box, click the **Tools** menu and then click **Options**. To access the **Miscellaneous** property page, expand the **Text Editor** > **XAML** > **Miscellaneous** node.
 
-> [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
-
-
 ## Auto Insert
- Use this setting to control when tags and quotes are automatically generated.
+
+Use this setting to control when tags and quotes are automatically generated.
 
 |||
 |-|-|
@@ -49,7 +46,8 @@ Use the **Miscellaneous** property page to specify how elements and attributes a
 |**Commas to separate MarkupExtension parameters**|Specifies whether commas are generated when you type more than one parameter in a markup extension.|
 
 ## Errors and Warnings
- Use this setting to control when errors and warnings are automatically generated. For more information, see [XAML errors and warnings](../../designers/xaml-errors-warnings.md).
+
+Use this setting to control when errors and warnings are automatically generated. For more information, see [XAML errors and warnings](../../designers/xaml-errors-warnings.md).
 
 ## See also
 

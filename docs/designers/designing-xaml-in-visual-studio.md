@@ -1,8 +1,7 @@
 ---
-title: Designing XAML in Visual Studio
+title: Use XAML
 ms.date: 07/17/2017
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: 288e2415-9fcf-408e-bc35-9848315e14fd
 author: gewarren
@@ -36,13 +35,13 @@ For most basic tasks, the IDE for Visual Studio and Blend for Visual Studio shar
 
 - **XAML IntelliSense:** Both IDEs support all of the common capabilities you would expect from IntelliSense including statement completion, support for common editor operations like commenting and formatting code, and navigation to resources, binding, and code.
 
-- **Basic debugging capabilities:** You can now debug in Blend, including setting breakpoints in your code to debug your running app. To maintain a consistent debugging experience with Visual Studio, Blend for Visual Studio includes most of Visual Studio's debugging windows and toolbars. Advanced debugging capabilities such as diagnostics and code analysis are only available in Visual Studio. See [Debug in Visual Studio](../debugger/debugging-in-visual-studio.md).
+- **Basic debugging capabilities:** You can now debug in Blend, including setting breakpoints in your code to debug your running app. To maintain a consistent debugging experience with Visual Studio, Blend for Visual Studio includes most of Visual Studio's debugging windows and toolbars. Advanced debugging capabilities such as diagnostics and code analysis are only available in Visual Studio. See [Debug in Visual Studio](../debugger/debugger-feature-tour.md).
 
 - **File reload experience:** You can edit your XAML files in either Blend for Visual Studio or Visual Studio, and have your edited files reload automatically as you switch between them. To minimize workflow interruptions, you can now set your file reload preferences in the file reload dialog.
 
      ![File reload experience](../designers/media/blendfilereload.png)
 
-- **Synchronized Layouts and Settings:** Custom layouts enable you to save and apply tool window layout customizations. Visual Studio synchronizes these customizations and preferences for both Visual Studio and Blend for Visual Studio across machines when you sign in with the same Microsoft account. See [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
+- **Synchronized Layouts and Settings:** Custom layouts enable you to save and apply tool window layout customizations. Visual Studio synchronizes these customizations and preferences for both Visual Studio and Blend for Visual Studio across machines when you sign in with the same Microsoft account. See [Synchronize settings across multiple computers](../ide/synchronized-settings-in-visual-studio.md).
 
 - **A common Solution Explorer:** **Solution Explorer** provides you with an organized view of your projects and their files, as well as ready access to the commands associated with them. With Solution Explorer, it is easier to work with big enterprise projects. See [Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md).
 

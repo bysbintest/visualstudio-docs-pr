@@ -1,8 +1,6 @@
 ---
 title: "How to: Publish a WPF Application with Visual Styles Enabled | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 ms.assetid: 73b22b02-fc75-42aa-82d3-51fdcaf8e5c8
 author: mikejo5000
@@ -33,7 +31,11 @@ Visual styles enable the appearance of common controls to change based on the th
      By default, visual styles are not enabled.  
   
     ```xml  
-    <dependency>    <dependentAssembly>      <assemblyIdentity          type="win32"          name="Microsoft.Windows.Common-Controls"          version="6.0.0.0"          processorArchitecture="*"          publicKeyToken="6595b64144ccf1df"          language="*"        />    </dependentAssembly>  </dependency>  
+    <dependency>
+        <dependentAssembly>
+            <assemblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" version="6.0.0.0" processorArchitecture="*" publicKeyToken="6595b64144ccf1df" language="*" />
+        </dependentAssembly>
+    </dependency>
     ```  
   
      The following procedures show how to open the manifest file associated with your project.  
@@ -72,7 +74,18 @@ Visual styles enable the appearance of common controls to change based on the th
      This XML describes the assembly that contains controls that support visual styles.  
   
     ```xml  
-    <?xml version="1.0" encoding="utf-8"?><asmv1:assembly manifestVersion="1.0"                xmlns="urn:schemas-microsoft-com:asm.v1"                xmlns:asmv1="urn:schemas-microsoft-com:asm.v1"                xmlns:asmv2="urn:schemas-microsoft-com:asm.v2"                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  <dependency>    <dependentAssembly>      <assemblyIdentity        type="win32"        name="Microsoft.Windows.Common-Controls"        version="6.0.0.0"        processorArchitecture="*"        publicKeyToken="6595b64144ccf1df"        language="*"        />    </dependentAssembly>  </dependency></asmv1:assembly>  
+    <?xml version="1.0" encoding="utf-8"?>
+    <asmv1:assembly manifestVersion="1.0" 
+        xmlns="urn:schemas-microsoft-com:asm.v1" 
+        xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" 
+        xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dependency>
+            <dependentAssembly>
+                <assemblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" version="6.0.0.0" processorArchitecture="*" publicKeyToken="6595b64144ccf1df" language="*" />
+            </dependentAssembly>
+        </dependency>
+    </asmv1:assembly>
     ```  
   
 2.  In Notepad, click **File**, and then click **Save As**.  

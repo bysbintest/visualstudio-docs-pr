@@ -1,8 +1,8 @@
 ---
-title: "Command-line parameter examples for Visual Studio installation"
+title: "Command-line parameter examples for installation"
 description: "Customize these examples to create your own command-line installation of Visual Studio."
-ms.date: 11/14/2018
-ms.technology: vs-acquisition
+ms.date: 01/15/2019
+ms.custom: "seodec18"
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: 837F31AA-F121-46e9-9996-F8BCE768E579
@@ -22,7 +22,7 @@ In each example, `vs_enterprise.exe`, `vs_professional.exe` and `vs_community.ex
 > All commands require administrative elevation, and a User Account Control prompt will be displayed if the process is not started from an elevated prompt.
 >
 > [!NOTE]
->  You can use the `^` character at the end of a command line to concatenate multiple lines into a single command. Alternatively, you can simply place these lines together onto a single row. In PowerShell, the equivalent is the backtick (`` ` ``) character.
+> You can use the `^` character at the end of a command line to concatenate multiple lines into a single command. Alternatively, you can simply place these lines together onto a single row. In PowerShell, the equivalent is the backtick (`` ` ``) character.
 
 ## Using --installPath
 
@@ -77,13 +77,15 @@ In each example, `vs_enterprise.exe`, `vs_professional.exe` and `vs_community.ex
    --includeRecommended
   ```
 
-## Using --includeRecommended
+## Using --all
 
 * Start an interactive installation of all workloads and components that are available in the Visual Studio 2017 Enterprise edition:
 
   ```cmd
-  vs_enterprise.exe --all --includeRecommended --includeOptional
+  vs_enterprise.exe --all
   ```
+
+## Using --includeRecommended
 
 * Install a second, named instance of Visual Studio 2017 Professional on a machine with Visual Studio 2017 Community edition already installed, with support for Node.js development:
 
@@ -130,13 +132,13 @@ This command-line command is **new in 15.9**. For more information about it, see
 * Using export to save the selection from an installation:
 
 ```cmd
-vs_enterprise.exe export --installPath "C:\VS" --config "C:\.vsconfig"
+"C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe" export --installPath "C:\VS" --config "C:\.vsconfig"
 ```
 
 * Using export to save custom selection from scratch:
 
 ```cmd
-vs_enterprise.exe export --add Microsoft.VisualStudio.Workload.ManagedDesktop --includeRecommended --config "C:\.vsconfig"
+"C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe" export --add Microsoft.VisualStudio.Workload.ManagedDesktop --includeRecommended --config "C:\.vsconfig"
 ```
 
 ## Using --config

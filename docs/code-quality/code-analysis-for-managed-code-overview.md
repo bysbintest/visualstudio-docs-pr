@@ -2,7 +2,6 @@
 title: Static code analysis for managed code
 ms.date: 03/26/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
 f1_keywords:
   - "vs.projectpropertypages.codeanalysis"
@@ -45,7 +44,7 @@ Frequently, it is useful to indicate that a warning is non-applicable. This info
 In-source suppression of warnings is implemented through custom attributes. To suppress a warning, add the attribute `SuppressMessage` to the source code as shown in the following example:
 
 ```csharp
-[System.Diagnosis.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1039:ListsAreStrongTyped")]
+[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1039:ListsAreStrongTyped")]
 Public class MyClass
 {
    // code
@@ -65,7 +64,7 @@ As an organization, you might want to require that all check-ins satisfy certain
 
 - Code analysis is run as part of the most recent build.
 
-You can accomplish this by specifying check-in policies. For more information, see [Enhancing Code Quality with Project Check-in Policies](../code-quality/enhancing-code-quality-with-team-project-check-in-policies.md).
+You can accomplish this by specifying check-in policies. For more information, see [Enhancing Code Quality with Project Check-in Policies](../code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies.md).
 
 ## Team build integration
 

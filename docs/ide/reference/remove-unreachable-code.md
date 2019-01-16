@@ -1,14 +1,13 @@
 ---
-title: Remove unreachable code refactoring in Visual Studio
+title: Remove unreachable code refactoring
 ms.date: 01/26/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 author: gewarren
 ms.author: gewarren
 manager: douge
 dev_langs:
-  - csharp
+  - CSharp
 ms.workload:
   - "dotnet"
 ---

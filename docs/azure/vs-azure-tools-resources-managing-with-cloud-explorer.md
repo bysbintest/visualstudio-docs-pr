@@ -5,7 +5,6 @@ author: ghogen
 manager: douge
 assetId: 6347dc53-f497-49d5-b29b-e8b9f0e939d7
 ms.prod: visual-studio-dev15
-ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
@@ -16,7 +15,7 @@ ms.author: ghogen
 
 Cloud Explorer enables you to view your Azure resources and resource groups, inspect their properties, and perform key developer diagnostics actions from within Visual Studio. 
 
-Like the [Azure portal](http://go.microsoft.com/fwlink/p/?LinkID=525040), Cloud Explorer is built on the Azure Resource Manager stack. Therefore, Cloud Explorer understands resources such as Azure resource groups and Azure services such as Logic apps and API apps, and it supports [role-based access control](/azure/role-based-access-control/role-assignments-portal.md) (RBAC). 
+Like the [Azure portal](http://go.microsoft.com/fwlink/p/?LinkID=525040), Cloud Explorer is built on the Azure Resource Manager stack. Therefore, Cloud Explorer understands resources such as Azure resource groups and Azure services such as Logic apps and API apps, and it supports [role-based access control](/azure/role-based-access-control/role-assignments-portal) (RBAC). 
 
 ## Prerequisites
 

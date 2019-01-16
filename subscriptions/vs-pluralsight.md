@@ -3,7 +3,7 @@ title: Pluralsight benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: jaunger
 manager: evelynp
-ms.date: 01/04/2018
+ms.date: 12/19/2018
 ms.topic: Get-Started-Article
 description:  Learn about the Pluralsight training subscription included with selected Visual Studio subscriptions.
 ms.prod: vs-subscription
@@ -21,7 +21,7 @@ The table below details what Pluralsight subscription benefits are available to 
 
 
 ## Activation steps
-1. To activate your subscription, connect to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the **Get Code** link on the Pluralsight benefit tile, located in the Professional Development section.
+1. To activate your subscription, connect to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the **Get code** link on the Pluralsight benefit tile, located in the Professional Development section.
    > [!div class="mx-imgBorder"]
    > ![Pluralsight Benefit Tile](_img/vs-pluralsight/vs-pluralsight-3month-tile.png)
    > 
@@ -34,16 +34,12 @@ The table below details what Pluralsight subscription benefits are available to 
    > [!div class="mx-imgBorder"]
    > ![Pluralsight Benefit Activate](_img/vs-pluralsight/vs-pluralsight-activate.png)
 
-3. You'll be redirected to the Pluralsight page for the benefit that's included with your Visual Studio subscription.  In this example, we'll activate the benefit provided with Visual Studio Dev Essentials memberships. Click **Activate your benefit**.
-   > [!div class="mx-imgBorder"]
-   > ![Pluralsight VSDE Landing Page](_img/vs-pluralsight/vs-pluralsight-vsde-landing.png)
-
-4. On the activation page:
+3. You'll be redirected to the Pluralsight page for the benefit that's included with your Visual Studio subscription.  
    - Provide the contact information requested on the form
    - Click the checkbox to accept the terms of use and privacy policy
    - Click **I agree, activate benefit**.
      > [!div class="mx-imgBorder"]
-     > ![Pluralsight Benefit Activation](_img/vs-pluralsight/vs-pluralsight-create-account-no-code.png)
+     > ![Pluralsight Benefit Activation](_img/vs-pluralsight/vs-pluralsight-create-account-no-code.png)  
      > [!div class="mx-imgBorder"]
      > ![Pluralsight Benefit Terms](_img/vs-pluralsight/vs-pluralsight-terms.png)
 
@@ -70,8 +66,8 @@ The table below details what Pluralsight subscription benefits are available to 
 
 |                          Subscription Level                          |     Channels      |    Benefit    |   Renewable?   |
 |----------------------------------------------------------------------|-------------------|---------------|----------------|
-|          Visual Studio Enterprise (Standard, annual cloud)           | VL, Azure, Retail |   6 months    | No<sup>2</sup> |
-|         Visual Studio Professional (Standard, annual cloud)          | VL, Azure, Retail |   3 months    | No<sup>2</sup> |
+|          Visual Studio Enterprise (Standard)           | VL, Azure, Retail |   6 months    | No<sup>2</sup> |
+|         Visual Studio Professional (Standard)          | VL, Azure, Retail |   3 months    | No<sup>2</sup> |
 |              Visual Studio Test Professional (Standard)              |    VL, Retail     |   3 months    | No<sup>2</sup> |
 |                      MSDN Platforms (Standard)                       |    VL, Retail     |   3 months    | No<sup>2</sup> |
 |                     Visual Studio Dev Essentials                     |        NA         |   1 month    |       No       |
@@ -80,7 +76,11 @@ The table below details what Pluralsight subscription benefits are available to 
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, MCT Software & Service, Microsoft Valued Professional (MVP), Region Director (RD), Microsoft Partner Network (MPN), FTE, Imagine.*
 
-<sup>2</sup>  *The Pluralsight benefit is single use only, tied to the individual.  Once the subscriber consumes the benefit, it does not reset. 
+<sup>2</sup>  *The Pluralsight benefit is single use only, tied to the individual.  Once the subscriber consumes the benefit, it does not reset.*
+
+> [!NOTE]
+> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
+
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 

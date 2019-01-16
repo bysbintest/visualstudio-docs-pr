@@ -1,8 +1,6 @@
 ---
 title: "Add controls to Office documents at runtime"
-ms.custom: ""
 ms.date: 02/02/2017
-ms.technology: office-development
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs:
@@ -20,8 +18,8 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], Windows Forms controls"
   - "controls [Office development in Visual Studio], adding at runtime"
   - "helper methods [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload:
   - "office"

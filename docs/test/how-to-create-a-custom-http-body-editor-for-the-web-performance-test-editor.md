@@ -1,5 +1,5 @@
 ---
-title: "Create a Custom HTTP Body Editor for the Web Performance Test Editor in Visual Studio"
+title: "Create a Custom HTTP Body Editor for the Web Performance Test Editor"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,13 +9,14 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ---
 # How to: Create a custom HTTP body editor for the Web Performance Test Editor
 
 You can create a custom content editor that enables you to edit the string body content or the binary body content of a web service request, for example, SOAP, REST, asmx, wcf, RIA, and other web service request types.
 
- You can implement these kinds of editors:
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
+You can implement these kinds of editors:
 
 -   **String content editor** This is implemented using the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin> interface.
 

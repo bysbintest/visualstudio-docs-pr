@@ -1,8 +1,6 @@
 ---
 title: "Actions pane overview"
-ms.custom: ""
 ms.date: 02/02/2017
-ms.technology: office-development
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs:
@@ -13,8 +11,8 @@ helpviewer_keywords:
   - "actions panes [Office development in Visual Studio]"
   - "smart documents [Office development in Visual Studio]"
   - "user controls [Office development in Visual Studio], actions panes"
-author: TerryGLee
-ms.author: tglee
+author: John-Hart
+ms.author: johnhart
 manager: douge
 ms.workload:
   - "office"

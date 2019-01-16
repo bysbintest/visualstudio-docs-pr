@@ -1,8 +1,7 @@
 ---
-title: "Automated UI tests"
-ms.date: 11/04/2016
+title: Automated UI tests
+ms.date: 12/04/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 f1_keywords:
   - "vs.codedUITest"
@@ -22,6 +21,8 @@ ms.workload:
 # Use UI automation to test your code
 
 Automated tests that drive your application through its user interface (UI) are known as *coded UI tests* (CUITs) in Visual Studio. These tests include functional testing of the UI controls. They let you verify that the whole application, including its user interface, is functioning correctly. Coded UI Tests are particularly useful where there is validation or other logic in the user interface, for example in a web page. They are also frequently used to automate an existing manual test.
+
+[!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]
 
 As shown in the following illustration, a typical development experience might be one where, initially, you simply build your application and click through the UI controls to verify that things are working correctly. Then you might decide to create an automated test so that you don't need to continue to test the application manually. Depending on the particular functionality being tested in your application, you can write code for either a functional test or for an integration test that might or might not include testing at the UI level. If you want to directly access some business logic, you might code a unit test. However, under certain circumstances, it can be beneficial to include testing of the various UI controls in your application. A coded UI test can verify that code churn does not impact the functionality of your application.
 
@@ -209,7 +210,7 @@ To generate the code for your assertions and add the control to the UI map, choo
 
 If the control you want to select loses focus and disappears when you select the **Add Assertions** tool from the **Coded UI Test Builder**:
 
-Sometimes, when you add controls and verify their properties, you might have to use the keyboard. For example, when you try to record a coded UI test that uses a context menu control, the list of menu items in the control will lose focus and disappear when you try to select the **Add Assertions** tool from the **Coded UI Test Builder**. This is demonstrated in the following illustration, where the context menu in Internet Explorer loses focus and disappears if you try to select it with the **Add Assertions** tool.
+Sometimes, when you add controls and verify their properties, you might have to use the keyboard. For example, when you try to record a coded UI test that uses a right-click menu control, the list of menu items in the control will lose focus and disappear when you try to select the **Add Assertions** tool from the **Coded UI Test Builder**. This is demonstrated in the following illustration, where the right-click menu in Internet Explorer loses focus and disappears if you try to select it with the **Add Assertions** tool.
 
 ![CodedUITest&#95;SelectControlKeyboard](../test/media/codeduitest_selectcontrolkeyboard.png)
 

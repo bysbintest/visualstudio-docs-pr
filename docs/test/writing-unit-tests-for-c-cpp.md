@@ -1,12 +1,11 @@
 ---
-title: "Write unit tests for C/C++ in Visual Studio"
+title: "Write unit tests for C/C++"
 ms.date: 10/09/2018
 ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: "mblome"
 manager: wpickett
-ms.workload: 
+ms.workload:
   - "cplusplus"
 author: mikeblome
 ---
@@ -32,7 +31,7 @@ C++ unit test projects support [CodeLens](../ide/find-code-changes-and-other-his
 
 **Visual Studio 2017 version 15.5**
 
-- **Google Test Adapter** is included as a default component of the **Desktop development with C++** workload. It has a project template that you can add to a solution via the  **Add New Project** context menu on the solution node in **Solution Explorer**, and options you can configure via **Tools** > **Options**. For more information, see [How to: use Google Test in Visual Studio](how-to-use-google-test-for-cpp.md).
+- **Google Test Adapter** is included as a default component of the **Desktop development with C++** workload. It has a project template that you can add to a solution via the **Add New Project** right-click menu on the solution node in **Solution Explorer**, and options you can configure via **Tools** > **Options**. For more information, see [How to: use Google Test in Visual Studio](how-to-use-google-test-for-cpp.md).
 
 - **Boost.Test** is included as a default component of the **Desktop development with C++** workload. It is integrated with **Test Explorer** but currently does not have project template, therefore it must be manually configured. For more information, see [How to: use Boost.Test in Visual Studio](how-to-use-boost-test-for-cpp.md).
 
@@ -113,7 +112,7 @@ For best practices related to unit testing, see [Unit test basics](unit-test-bas
 
 ## Use CodeLens
 
-**Visual Studio 2017 version 15.7 Professional and Enterprise Editions only**: 
+**Visual Studio 2017 version 15.7 Professional and Enterprise Editions only**:
 [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) enables you to quickly see the status of a unit test without leaving the code editor. You can initialize CodeLens for a C++ unit test project in any of these ways:
 
 - Edit and build your test project or solution.
