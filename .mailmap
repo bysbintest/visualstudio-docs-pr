@@ -59,56 +59,60 @@ David Antognoli <v-davian@microsoft.com> <david.antognoli@gmail.com>
 Patricia (Trisha) McNary <v-pamcn@microsoft.com> <38017854+TrishaMc@users.noreply.github.com>
 
 # Julia's org
-**** Emma Roudabush <emrou@microsoft.com>
-**** Pratik Nadagouda <prnadago@microsoft.com>
-**** Armando Aguirre Sepulveda <armando.aguirre@microsoft.com>
-**** Stephanie Su <stsu@microsoft.com>
-**** Daniel Jacobson <dajaco@microsoft.com>
-**** David Kean <davkean@microsoft.com>
-**** Steven Vukelich <svukel@microsoft.com>
-**** Gregg Miskelly <greggm@microsoft.com>
-**** Mike Morton <mikemort@microsoft.com>
-**** Heath Stewart <heaths@microsoft.com>
-**** Chitra Koppolu <chitray@microsoft.com>
-**** Karan Nandwani <karann@microsoft.com>
-**** Phil Lee <phillee@microsoft.com>
-**** Soojin Choi <somin@microsoft.com>
-**** Oleg Tkachenko <olegtk@microsoft.com>
-**** Pierson Lee <piel@microsoft.com>
-**** John Stallo <johnsta@microsoft.com> <john.stallo@microsoft.com> <john.stallo@live.com>
-**** Kendra Havens <kehavens@microsoft.com> <kendrahavens@users.noreply.github.com>
-**** Sebastien Lebreton <sebastien@lebreton.fr>
-**** Paul Chapman <pchapman@microsoft.com> <PoulChapman@users.noreply.github.com> <poulchapman@users.noreply.github.com>
-**** Phillip Carter <phcart@microsoft.com> <pcarter@fastmail.com>
-**** Angelos Petropoulos <angelos.petropoulos@microsoft.com> <angelos.petropoulos@outlook.com>
-**** Mark Wilson-Thomas <mwthomas@microsoft.com>
-**** Pooya Zandevakili <pozandev@microsoft.com> <16107916+PooyaZv@users.noreply.github.com>
-**** Allison Buchholtz-Au <allisb@microsoft.com> <abuchholtzau@users.noreply.github.com>
-**** Prachi Bora <prachi.bora@microsoft.com> <prachi.bora@gmail.com>
-**** Deborah Chen <dech@microsoft.com> <deborahc@users.noreply.github.com>
-**** Drew Noakes <drnoakes@microsoft.com> <git@drewnoakes.com>
-**** Lisa Guthrie <lcozzens@microsoft.com> <lisacozzens@hotmail.com>
-**** William Xie <willxie@microsoft.com>
-**** Douglas Hall <doughall@microsoft.com> <frayus@live.com>
-**** Mads Kristensen <Madsk@microsoft.com> <madskristensen@users.noreply.github.com>
-**** Maria Ghiondea <maria.ghiondea@microsoft.com>
-**** Nick Uhlenhuth <nicku@microsoft.com> <nicku@mit.edu>
-**** Amadeusz Wieczorek <amwieczo@microsoft.com> <git@amadeusw.com>
-**** Heejae Chang <hechang@microsoft.com> <heejaechang@outlook.com>
-**** Sean Iyer <seiyer@microsoft.com> <41308619+seaniyer@users.noreply.github.com>
-**** Andy Sterland <andster@microsoft.com>
-**** Aditya Kadam <adityk@microsoft.com>
-**** Amy Burns <amburns@microsoft.com> <amy.burns@xamarin.com> <amy.burns87@gmail.com>
-**** Tina Schrepfer <tinali@microsoft.com>
-**** Bertan Aygun <bertaygu@microsoft.com> <bertan@aygunler.net>
-**** Jordan Matthiesen <jomatthi@microsoft.com> <jmatthie@hotmail.com>
-**** John Miller <johmil@microsoft.com>
-**** Nikola Mihaylov <nikolami@microsoft.com>
-**** Steve Dower <steve.dower@microsoft.com>
-**** Matt Ward <mawa@microsoft.com> <matt.ward@microsoft.com>
-**** Michael Eng <meng@microsoft.com>
+****  Michael Eng <meng@microsoft.com>
+****  Matt Ward <matt.ward@microsoft.com>
+****  Casey Carter <cacarter@microsoft.com>
+****  Tyler Dunkel <tydunkel@microsoft.com>
+****  Kyle Reed <kylereed@microsoft.com>
+****  Emma Roudabush <emrou@microsoft.com>
+****  Pratik Nadagouda <prnadago@microsoft.com>
+****  Armando Aguirre Sepulveda <armando.aguirre@microsoft.com>
+****  Stephanie Su <stsu@microsoft.com>
+****  Daniel Jacobson <dajaco@microsoft.com>
+****  David Kean <davkean@microsoft.com>
+****  Steven Vukelich <svukel@microsoft.com>
+****  Gregg Miskelly <greggm@microsoft.com>
+****  Mike Morton <mikemort@microsoft.com>
+****  Heath Stewart <heaths@microsoft.com>
+****  Chitra Koppolu <chitray@microsoft.com>
+****  Karan Nandwani <karann@microsoft.com>
+****  Phil Lee <phillee@microsoft.com>
+****  Soojin Choi <somin@microsoft.com>
+****  Oleg Tkachenko <olegtk@microsoft.com>
+****  Pierson Lee <piel@microsoft.com>
+****  John Stallo <johnsta@microsoft.com> <john.stallo@microsoft.com> <john.stallo@live.com>
+****  Kendra Havens <kehavens@microsoft.com> <kendrahavens@users.noreply.github.com>
+****  Sebastien Lebreton <sebastien@lebreton.fr>
+****  Paul Chapman <pchapman@microsoft.com> <PoulChapman@users.noreply.github.com> <poulchapman@users.noreply.github.com>
+****  Phillip Carter <phcart@microsoft.com> <pcarter@fastmail.com>
+****  Angelos Petropoulos <angelos.petropoulos@microsoft.com> <angelos.petropoulos@outlook.com>
+****  Mark Wilson-Thomas <mwthomas@microsoft.com>
+****  Pooya Zandevakili <pozandev@microsoft.com> <16107916+PooyaZv@users.noreply.github.com>
+****  Allison Buchholtz-Au <allisb@microsoft.com> <abuchholtzau@users.noreply.github.com>
+****  Prachi Bora <prachi.bora@microsoft.com> <prachi.bora@gmail.com>
+****  Deborah Chen <dech@microsoft.com> <deborahc@users.noreply.github.com>
+****  Drew Noakes <drnoakes@microsoft.com> <git@drewnoakes.com>
+****  Lisa Guthrie <lcozzens@microsoft.com> <lisacozzens@hotmail.com>
+****  William Xie <willxie@microsoft.com>
+****  Douglas Hall <doughall@microsoft.com> <frayus@live.com>
+****  Mads Kristensen <Madsk@microsoft.com> <madskristensen@users.noreply.github.com>
+****  Maria Ghiondea <maria.ghiondea@microsoft.com>
+****  Nick Uhlenhuth <nicku@microsoft.com> <nicku@mit.edu>
+****  Amadeusz Wieczorek <amwieczo@microsoft.com> <git@amadeusw.com>
+****  Heejae Chang <hechang@microsoft.com> <heejaechang@outlook.com>
+****  Sean Iyer <seiyer@microsoft.com>
+****  Andy Sterland <andster@microsoft.com>
+****  Aditya Kadam <adityk@microsoft.com>
+****  Amy Burns <amburns@microsoft.com> <amy.burns@xamarin.com> <amy.burns87@gmail.com>
+****  Tina Schrepfer <tinali@microsoft.com>
+****  Bertan Aygun <bertaygu@microsoft.com> <bertan@aygunler.net>
+****  Jordan Matthiesen <jomatthi@microsoft.com> <jmatthie@hotmail.com>
+****  John Miller <johmil@microsoft.com>
+****  Nikola Mihaylov <nikolami@microsoft.com>
+****  Steve Dower <steve.dower@microsoft.com>
 
 # Other orgs at Microsoft
+Jorgen Thelin <jthelin@microsoft.com>
 Paul Ming <paulming@microsoft.com> # Bharat Shah's org
 Jeff Kluge <jeffkl@microsoft.com> # Ballinger's org
 Rainer Sigwald <raines@microsoft.com> # Ballinger's org
