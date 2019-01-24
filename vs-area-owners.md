@@ -19,8 +19,8 @@
 | IDE - general | Anthony Cangialosi | acangialosi |
 | IDE - project | Phillip Carter | cartermp |
 | Installation | Ted Van Zwol | tedvz-msft |
-| Mac | | |
-| Modeling | Subrahmanya Srinivas | SrinivasMSFT |
+| Mac | Amy Burns | asb3993 |
+| Modeling | Marco Goertz | @mgoertz-msft |
 | MSBuild | Kathleen Dollard | kathleendollard |
 | NodeJS | | |
 | Profiling | Esteban Herrera | esteban-herrera |
