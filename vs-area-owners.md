@@ -15,7 +15,6 @@
 | Extensibility | Mads Kristensen | madskristensen |
 | F1 help | Ruben Rios | rub8n |
 | Getting started | Cathy Sullivan | cathysull |
-| IDE - IntelliSense | Phillip Carter | cartermp |
 | IDE - general | Anthony Cangialosi | acangialosi |
 | IDE - project | Phillip Carter | cartermp |
 | Installation | Ted Van Zwol | tedvz-msft |
