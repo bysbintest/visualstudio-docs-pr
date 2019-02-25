@@ -1,7 +1,6 @@
 ---
 title: Overview for C# developers
 ms.date: 11/15/2018
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.custom: get-started
 ms.topic: conceptual
@@ -92,7 +91,7 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
 ## Install the Visual Studio IDE
 
-This overview article walks you through creating a simple project and trying some of the things you can do with Visual Studio, like using [IntelliSense](../../ide/using-intellisense.md) as a coding aid, debugging an app to see the value of a variable during the program's execution, and changing the color theme. To get started, [download Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) and install it on your system.
+This overview article walks you through creating a simple project and trying some of the things you can do with Visual Studio, like using [IntelliSense](../../ide/using-intellisense.md) as a coding aid, debugging an app to see the value of a variable during the program's execution, and changing the color theme. To get started, [download Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) and install it on your system.
 
 The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
 
@@ -117,18 +116,6 @@ Let's configure Visual Studio to use environment settings tailored to C# develop
 To learn about other ways you can personalize the IDE, see [Personalize Visual Studio](../../ide/personalizing-the-visual-studio-ide.md).
 
 ## Create a program
-
-First, we'll configure Visual Studio to use environment settings tailored to C# developers.
-
-1. On the menu bar, choose **Tools** > **Import and Export Settings**.
-
-2. In the **Import and Export Settings Wizard**, select **Reset all settings** on the first page, and then choose **Next**.
-
-3. On the **Save Current Settings** page, select an option to save your current settings or not, and then choose **Next**. (If you haven't customized any settings, select **No, just reset settings, overwriting my current settings**.)
-
-4. On the **Choose a Default Collection of Settings** page, choose **Visual C#** and then choose **Finish**.
-
-5. On the **Reset Complete** page, choose **Close**.
 
 Let's dive in and create a simple program.
 
@@ -298,5 +285,4 @@ Explore Visual Studio further by following along with one of these introductory 
 
 - Discover [more Visual Studio features](../../ide/advanced-feature-overview.md)
 - Visit [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/)
-- Read [The Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/)
-- Check out the free Visual Studio courses at [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033)
+- Read [The Visual Studio blog](https://devblogs.microsoft.com/visualstudio/)

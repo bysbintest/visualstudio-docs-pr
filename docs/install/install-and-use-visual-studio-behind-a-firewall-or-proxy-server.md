@@ -3,7 +3,6 @@ title: "Install and use behind a firewall or proxy server"
 description: "Review the domain URLs, ports, and protocols that you might want to whitelist or open if your organization uses a firewall or a proxy server"
 ms.date: 07/10/2018
 ms.custom: "seodec18"
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "network installation, Visual Studio"
@@ -79,7 +78,7 @@ To make sure that you have access to everything you need when you use Visual Stu
 | Service or scenario | DNS endpoint | Protocol | Port | Description |
 | - | - | - | - | - |
 | URL<br>resolution | go.microsoft.com<br><br>aka.ms | | | Used to shorten URLs, which then resolve into longer URLs |
-| Start Page | vsstartpage.blob.core.windows.net | | 443 | Used to display Developer News shown on the start page in Visual Studio |
+| Start Page | vsstartpage.blob.core.windows.net | | 443 | Used to display Developer News shown on the start page (Visual Studio 2017 only) |
 | Targeted<br> Notification <br>Service | targetednotifications.azurewebsites.net <br><br>www.research.net | | 80<br><br>443 | Used to filter a global list of notifications to a list that is applicable only to specific types of machines/usage scenarios |
 | Extension <br>update check | marketplace.visualstudio.com<br><br>&#42;.windows.net <br>&#42;.microsoftonline.com <br>&#42;.live.com | | 443 | Used to provide notifications when an installed extension has an update available <br><br> Used as a sign-in location |
 | AI Project <br>Integration | az861674.vo.msecnd.net | | 443<br> | Used to configure new projects to send usage data to your registered Application Insights account |

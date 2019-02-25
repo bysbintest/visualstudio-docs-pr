@@ -4,7 +4,7 @@
   items:
   - name: "What is debugging?"
     href: what-is-debugging.md
-  - name: Fix exceptions and errors
+  - name: Debugging techniques and tools
     href: write-better-code-with-visual-studio.md
 - name: Quickstarts
   items:
@@ -201,6 +201,9 @@
       items:
       - name: Create custom views of native objects
         href: create-custom-views-of-native-objects.md
+        items:
+        - name: "Visual C++ custom visualizer compatibility"
+          href: visual-cpp-custom-visualizer-compatibility.md
       - name: Create custom views of managed objects
         href: create-custom-views-of-dot-managed-objects.md
         items:
@@ -358,11 +361,14 @@
     items:
     - name: Debug a live Azure app
       href: debug-live-azure-applications.md
-      items:
-      - name: FAQ for snapshot debugging
-        href: debug-live-azure-apps-faq.md
-      - name: Troubleshooting snapshot debugging
-        href: debug-live-azure-apps-troubleshooting.md
+    - name: Debug a live Azure virtual machine app
+      href: debug-live-azure-virtual-machines.md
+    - name: Debug a live Azure Kubernetes app
+      href: debug-live-azure-kubernetes.md
+    - name: FAQ for snapshot debugging
+      href: debug-live-azure-apps-faq.md
+    - name: Troubleshooting snapshot debugging
+      href: debug-live-azure-apps-troubleshooting.md
   - name: Debug specific application types
     href: debugging-applications.md
     items:

@@ -101,7 +101,7 @@ ms.custom: seodec18
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardText">
-                                                <h2>Choose a language</h2>
+                                                <h2>Follow a tutorial</h2>
                                                 <table cellpadding="0" cellspacing="0" border="0">
                                                     <tr>
                                                         <td style="border-top-color:transparent!important;padding-left:0;">
@@ -986,7 +986,7 @@ ms.custom: seodec18
         <h2>Keep in touch with us</h2>
         <ul class="links">
            <li>
-                <a href="https://blogs.msdn.microsoft.com/visualstudio/">
+                <a href="https://devblogs.microsoft.com/visualstudio/">
                     Blog
                 </a>
             </li>

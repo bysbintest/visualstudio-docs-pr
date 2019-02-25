@@ -1,8 +1,7 @@
 ---
 title: Tour of the Visual Studio IDE
 titleSuffix: ""
-ms.date: 07/12/2018
-ms.prod: visual-studio-dev15
+ms.date: 02/21/2019
 ms.topic: quickstart
 author: gewarren
 ms.author: gewarren
@@ -16,7 +15,7 @@ experiment_id: "7b7f8053-75fc-4d"
 
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), we'll take a tour of some of the windows, menus, and other UI features.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
 
 ## Start Page
 
@@ -75,6 +74,8 @@ Let's build the project to see some build output. From the **Build** menu, choos
 ## Quick Launch
 
 The **Quick Launch** box is a quick and easy way to do pretty much anything in Visual Studio. You can enter some text related to what you want to do, and it'll show you a list of options that pertain to the text. For example, imagine you want to increase the build output's verbosity to display additional details about what exactly build is doing. Here's how you might do that:
+
+1. Locate the **Quick Launch** box in the upper right of the IDE. (Alternatively, press **Ctrl**+**Q** to access it.)
 
 1. Type **verbosity** into the **Quick Launch** box. From the displayed results, choose **Projects and Solutions --> Build and Run** under the **Options** category.
 
