@@ -53,7 +53,7 @@ Properties are name-value pairs that can be used to configure builds. Properties
  For more information, see [How to: Use environment variables in a build](../msbuild/how-to-use-environment-variables-in-a-build.md).
 
 ## Registry properties
- You can read system registry values by using the following syntax, where `Hive` is the registry hive (for example, **HKEY_LOCAL_MACHINE**), `Key` is the key name, `SubKey` is the subkey name, and `Value` is the value of the subkey.
+ You can read system registry values by using the following syntax, where `Hive` is the registry hive (for example, **HKEY_LOCAL_MACHINE**), `MyKey` is the key name, `MySubKey` is the subkey name, and `Value` is the value of the subkey.
 
 ```xml
 $(registry:Hive\MyKey\MySubKey@Value)
@@ -112,7 +112,6 @@ msbuild.exe MyProj.proj -p:Configuration=DEBUG
  Properties can contain arbitrary XML, which can help in passing values to tasks or displaying logging information. The following example shows the `ConfigTemplate` property, which has a value that contains XML and other property references. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] replaces the property references by using their respective property values. Property values are assigned in the order in which they appear. Therefore, in this example, `$(MySupportedVersion)`, `$(MyRequiredVersion)`, and `$(MySafeMode)` should have already been defined.
 
 ```xml
-
 <PropertyGroup>
     <ConfigTemplate>
         <Configuration>

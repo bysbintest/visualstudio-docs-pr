@@ -13,6 +13,8 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
 # Install certificates required for Visual Studio offline installation
 
@@ -107,6 +109,7 @@ When a signature is verified in an online environment, Windows APIs are used to 
 ## Checking if certificates are already installed
 
 One way to check on the installing system is to follow these steps:
+
 1. Run **mmc.exe**.<br/>
   a. Click File, and then select **Add/Remove Snap-in**.<br/>
   b. Double-click **Certificates**, select **Computer account**, and then click **Next**.<br/>
