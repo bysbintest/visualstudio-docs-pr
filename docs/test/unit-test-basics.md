@@ -72,7 +72,7 @@ Now that we have some code, it's time for testing.
 
 ## Create unit test projects and test methods
 
-It is often quicker to generate the unit test project and unit test stubs from your code. Or you can choose to create the unit test project and tests manually depending on your requirements.
+It is often quicker to generate the unit test project and unit test stubs from your code. Or you can choose to create the unit test project and tests manually depending on your requirements. If you want to create unit tests with a 3rd party framework you will need one of these extensions installed: [NUnit](https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.TestGeneratorNUnitextension-18371) or [xUnit](https://marketplace.visualstudio.com/items?itemName=YowkoTsai.xUnitnetTestGenerator).
 
 ### Generate unit test project and unit test stubs
 
@@ -82,7 +82,7 @@ It is often quicker to generate the unit test project and unit test stubs from y
 
 2. Click **OK** to accept the defaults to create your unit tests, or change the values used to create and name the unit test project and the unit tests. You can select the code that is added by default to the unit test methods.
 
-    ![Right&#45;click in editor and choose Create Unit Tests](../test/media/createunittestsdialog.png)
+    ![Create Unit Tests dialog box in Visual Studio](../test/media/create-unit-tests.png)
 
 3. The unit test stubs are created in a new unit test project for all the methods in the class.
 
