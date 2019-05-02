@@ -166,9 +166,10 @@ The following procedures walk you through the steps necessary to configure conti
      ```
      -_artifactsLocation $(artifactsLocation) -_artifactsLocationSasToken (ConvertTo-SecureString -String "$(artifactsLocationSasToken)" -AsPlainText -Force)
      ```
+
      ![Configure Azure Resource Group Deployment Task](media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough18.png)
 7. After you’ve added all the required items, save the build pipeline and choose **Queue new build** at the top.
 
 ## Next steps
 
-Read [Azure Resource Manager overview](/azure-resource-manager/resource-group-overview) to learn more about Azure Resource Manager and Azure resource groups.
+Read [Azure Resource Manager overview](/azure/azure-resource-manager/resource-group-overview) to learn more about Azure Resource Manager and Azure resource groups.

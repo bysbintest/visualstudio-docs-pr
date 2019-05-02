@@ -59,7 +59,7 @@ Next, you'll build the solution with the custom build configuration.
 
 ### Build the solution
 
--   On the menu bar, choose **Build** > **Build Solution**.
+- On the menu bar, choose **Build** > **Build Solution**.
 
     The **Output** window displays the results of the build. The build succeeded.
 
@@ -186,7 +186,7 @@ For more information, see [How to: Change the build output directory](../ide/how
 
      ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png)
 
-### Specify a release build for C# #
+### Specify a release build for C\#
 
 1. Open the **Project Designer**.
 

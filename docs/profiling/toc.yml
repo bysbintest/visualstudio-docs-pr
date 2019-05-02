@@ -33,16 +33,18 @@
       href: custom-native-etw-heap-events.md
     - name: Memory usage without the debugger
       href: memory-usage-without-debugging2.md
+  - name: Measure performance from the command-line
+    href: profile-apps-from-command-line.md
   - name: Analyze GPU usage
     href: gpu-usage.md
   - name: Analyze Resource Consumption
     href: application-timeline.md
   - name: Use PerfTips
     href: perftips.md
-  - name: Analyze JavaScript memory
-    href: javascript-memory.md
   - name: Analyze Network usage
     href: network-usage.md
+  - name: Analyze JavaScript memory
+    href: javascript-memory.md
   - name: Analyze HTML UI responsiveness
     href: html-ui-responsiveness.md
   - name: Use Performance Explorer

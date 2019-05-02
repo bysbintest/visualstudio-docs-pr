@@ -100,11 +100,21 @@ You can share your custom keyboard shortcuts by exporting them to a file and the
 
 4. Select the **Keyboard** check box, and then choose the **Next** button.
 
-    ![Export only customized keyboard shortcuts](../ide/media/exportshortcuts.png)
+   ![Export only customized keyboard shortcuts](../ide/media/exportshortcuts.png)
 
-5. In the **What do you want to name your settings file?** and **Store my settings file in this directory** boxes, either leave the default values or specify different values, and then choose the **Finish** button.
+5. In the **What do you want to name your settings file** and **Store my settings file in this directory** boxes, either leave the default values or specify different values, and then choose the **Finish** button.
 
-    By default, your shortcuts are saved in a file in the *%USERPROFILE%\Documents\Visual Studio 2017\Settings* folder. The name of the file reflects the date when you exported the settings, and the extension is *.vssettings*.
+::: moniker range="vs-2017"
+
+By default, your shortcuts are saved in a file in the *%USERPROFILE%\Documents\Visual Studio 2017\Settings* folder. The name of the file reflects the date when you exported the settings, and the extension is *.vssettings*.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+By default, your shortcuts are saved in a file in the *%USERPROFILE%\Documents\Visual Studio 2019\Settings* folder. The name of the file reflects the date when you exported the settings, and the extension is *.vssettings*.
+
+::: moniker-end
 
 ### To import only keyboard shortcuts
 
@@ -118,7 +128,7 @@ You can share your custom keyboard shortcuts by exporting them to a file and the
 
 5. Choose the **Next** button.
 
-6.  Under **Which settings do you want to import?**, clear the **All Settings** check box, expand **Options**, and then expand **Environment**.
+6. Under **Which settings do you want to import?**, clear the **All Settings** check box, expand **Options**, and then expand **Environment**.
 
 7. Select the **Keyboard** check box, and then choose the **Finish** button.
 

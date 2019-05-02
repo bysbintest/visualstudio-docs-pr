@@ -9,6 +9,7 @@ manager: jillfra
 ms.workload:
   - "vssdk"
 ---
+
 # Add a Language Server Protocol extension
 
 The Language Server Protocol (LSP) is a common protocol, in the form of JSON RPC v2.0, used to provide language service features to various code editors. Using the protocol, developers can write a single language server to provide language service features like IntelliSense, error diagnostics, find all references, etc. to various code editors that support the LSP. Traditionally, language services in Visual Studio can be added by either using TextMate grammar files to provide basic functionalities such as syntax highlighting, or by writing custom language services using the full set of Visual Studio extensibility APIs to provide richer data. Now, support for the LSP offers a third option.
@@ -123,7 +124,7 @@ The LSP does not include specification on how to provide text colorization for l
 
 4. Create a *.pkgdef* file and add a line similar to this:
 
-    ```xml
+    ```
     [$RootKey$\TextMate\Repositories]
     "MyLang"="$PackageFolder$\Grammars"
     ```
@@ -253,7 +254,6 @@ namespace MockLanguageExtension
         [BaseDefinition(CodeRemoteContentDefinition.CodeRemoteContentTypeName)]
         internal static ContentTypeDefinition BarContentTypeDefinition;
 
-
         [Export]
         [FileExtension(".bar")]
         [ContentType("bar")]
@@ -291,6 +291,7 @@ Follow these steps below to add support for settings to your LSP language servic
         "foo.maxNumberOfProblems": -1
     }
     ```
+
 2. Right-click on the JSON file and select **Properties**. Change the **Build** action to "Content" and the "Include in VSIX' property to true.
 
 3. Implement ConfigurationSections and return the list of prefixes for the settings defined in the JSON file (In Visual Studio Code, this would map to the configuration section name in package.json):
@@ -307,13 +308,14 @@ Follow these steps below to add support for settings to your LSP language servic
 
 4. Add a .pkgdef file to the project (add new text file and change the file extension to .pkgdef). The pkgdef file should contain this info:
 
-    ```xml
+    ```
     [$RootKey$\OpenFolder\Settings\VSWorkspaceSettings\[settings-name]]
     @="$PackageFolder$\[settings-file-name].json"
     ```
 
     Sample:
-    ```xml
+
+    ```
     [$RootKey$\OpenFolder\Settings\VSWorkspaceSettings\MockLanguageExtension]
     @="$PackageFolder$\MockLanguageExtensionSettings.json"
     ```
@@ -339,8 +341,10 @@ Follow these steps below to add support for settings to your LSP language servic
         "foo.maxNumberOfProblems": 10
     }
     ```
-    ### Enabling diagnostics tracing
-    Diagnostics tracing can be enabled to output all messages between the client and server, which can be useful when debugging issues. To enable diagnostic tracing, do the following:
+
+### Enabling diagnostics tracing
+
+Diagnostics tracing can be enabled to output all messages between the client and server, which can be useful when debugging issues. To enable diagnostic tracing, do the following:
 
 4. Open or create the workspace settings file *VSWorkspaceSettings.json* (see "User editing of settings for a workspace").
 5. Add the following line in the settings json file:
