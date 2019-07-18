@@ -76,7 +76,8 @@
       "template_folder": "_themes"
     }
   ],
-  "notification_subscribers": [],
+  "notification_subscribers": [
+  "v-shsh11@microsoft.com"],
   "sync_notification_subscribers": [
     "gewarren@microsoft.com"
   ],
